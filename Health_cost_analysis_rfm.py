@@ -88,5 +88,5 @@ print("Small Health Spenders: ",len(df[df['total_score']==5]))
 print("Least Potential Customer: ",len(df[df['total_score'].between(4, 5, inclusive = True)]))
 print('Normal Customers: ',len(df[df['total_score'].between(6, 10, inclusive = True)]))
 
-rfm.query('total_score > 11', inplace=True)
-print(rfm)
+df.query('total_score > 11', inplace=True)
+print(df)
