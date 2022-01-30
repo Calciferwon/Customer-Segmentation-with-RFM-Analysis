@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #load data into pandas dataframe..
-dataset = pd.read_csv(r'D:\DATest_Monkey\Đỗ Thùy_test answer\viện phí.csv')
+dataset = pd.read_csv(r'D:\viện phí.csv')
 df = pd.DataFrame(dataset)
 df.head()
 
