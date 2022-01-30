@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 
 #Reading the dataset
-dataset = pd.read_csv(r'D:\DATest_Monkey\Đỗ Thùy_test answer\viện phí.csv')
+dataset = pd.read_csv(r'D:\viện phí.csv')
 dataset = dataset.drop_duplicates()
 df = pd.DataFrame(dataset)
 df.head()
